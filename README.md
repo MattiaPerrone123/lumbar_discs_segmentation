@@ -10,7 +10,7 @@ Using an [open-source dataset](https://doi.org/10.5281/zenodo.8009680), we perfo
 A 3D autoencoder is trained to extract latent features from the predicted disc masks, which are then used to predict disc bulging via a gradient boosting classifier. This part also includes interpretability of the latent features
 
 
-The code for the first part of the project is available in this repository. You can find the model weights for the segmentation [here] (https://drive.google.com/file/d/1D44Om1X1bx4eWHOTtpJWKG4gp9OGl-Fo/view?usp=sharing)
+The code for the first part of the project is available in this repository. You can find the model weights for the segmentation [here](https://drive.google.com/file/d/1D44Om1X1bx4eWHOTtpJWKG4gp9OGl-Fo/view?usp=sharing)
 
 ## Overview of the Project
 
@@ -36,7 +36,7 @@ The following preprocessing steps were performed:
 * Image normalization/standardization
 
 ## Model
-We employed the Swin Transformer (specifically, SwinUNETR from MONAI) for the segmentation task. While there are pre-trained models available (e.g., from TotalSegmentator), accurate segmentation of specific anatomical regions like the intervertebral disc remains challenging
+We employed the Swin Transformer (specifically, SwinUNETR from MONAI) for the segmentation task. While there are pre-trained models available (e.g., from TotalSegmentator), accurate segmentation of specific anatomical regions like the intervertebral disc remains challenging, requiring therefore training from scratch
 
 
 <br>
@@ -55,11 +55,11 @@ Figure 2: Architecture of the Swin Transformer model
 
 ## Results
 For the segmentation task using the Swin Transformer, we achieved the following results:<br>
-**Intersection over Union (IoU):** 0.79 (95% CI, 0.77–0.80)<br> 
-**Dice Similarity Coefficient:** 0.88 (95% CI, 0.87–0.89)<br>
+* **Intersection over Union (IoU):** 0.79 (95% CI, 0.77–0.80)<br> 
+* **Dice Similarity Coefficient:** 0.88 (95% CI, 0.87–0.89)<br>
 These results align with [previous analyses](./Papers/Van_der_graaf_2023) of this dataset 
 
-Incorporating the latent features extracted from the 3D autoencoder into a gradient boosting classifier improved disc bulging prediction compared to using geometric features alone. The performance was comparable to studies that combine geometric and anthropometric data (see tables below for detailed results)
+Incorporating the latent features extracted from the 3D autoencoder into a gradient boosting classifier improved disc bulging prediction compared to using geometric features alone. The performance was comparable to studies that combine geometric and anthropometric data [(Hung et al. 2021)](./Papers/Hung_2021.pdf) and [(Lin et al. 2024)](./Papers/Lin_2024.pdf). We also showed that combining geometric and latent features for the current dataset leads to an improvemeny in model performance for disc bulging predictions (see tables below for detailed results)
 
 
 <br>
