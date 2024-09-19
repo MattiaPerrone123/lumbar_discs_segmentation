@@ -1,5 +1,5 @@
 # Lumbar Spine MRI Segmentation and Disc Pathology Prediction
-This project aims to extract latent features from segmented lumbar spine MRIs and utilize them to predict disc pathologies, such as disc bulging. Additionally, we provide an interpretation of the latent features. The current study was currently accepted at PSRS-ORS 2024 as a [podium presentation](./Papers/An Image Autoencoder for Learning Latent Disc Geometry from Segmented Lumbar Spine MRI) and we are currently finishing to write the paper
+This project aims to extract latent features from segmented lumbar spine MRIs and utilize them to predict disc pathologies, such as disc bulging. Additionally, we provide an interpretation of the latent features. The current study was currently accepted at PSRS-ORS 2024 as a [podium presentation](./Papers/PSRS_ORS_2024.pdf) and we are currently finishing to write the paper
 
 The project is divided into two parts:
 
@@ -27,7 +27,7 @@ The code for the first part of the project is available in this repository. You 
 
 
 ## Dataset
-We use an [open-source dataset](https://doi.org/10.5281/zenodo.8009680) of lumbar spine T2-weighted MRIs. The dataset consists of 198 images from respective patients. A train/validation/test split of 60/20/20 was applied
+We used an [open-source dataset](https://doi.org/10.5281/zenodo.8009680) of lumbar spine T2-weighted MRIs. The dataset consists of 198 images from respective patients. A train/validation/test split of 60/20/20 was applied
 
 ## Preprocessing
 The following preprocessing steps were performed:
@@ -57,7 +57,7 @@ Figure 2: Architecture of the Swin Transformer model
 For the segmentation task using the Swin Transformer, we achieved the following results:<br>
 **Intersection over Union (IoU):** 0.79 (95% CI, 0.77–0.80)<br> 
 **Dice Similarity Coefficient:** 0.88 (95% CI, 0.87–0.89)<br>
-These results align with [previous analyses](./Papers/Van_der_graaf et al. 2023) of this dataset 
+These results align with [previous analyses](./Papers/Van_der_graaf_2023) of this dataset 
 
 Incorporating the latent features extracted from the 3D autoencoder into a gradient boosting classifier improved disc bulging prediction compared to using geometric features alone. The performance was comparable to studies that combine geometric and anthropometric data (see tables below for detailed results)
 
