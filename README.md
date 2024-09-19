@@ -10,7 +10,7 @@ Using an [open-source dataset](https://doi.org/10.5281/zenodo.8009680), we perfo
 A 3D autoencoder is trained to extract latent features from the predicted disc masks, which are then used to predict disc bulging via a gradient boosting classifier. This part also includes interpretability of the latent features
 
 
-The code for the first part of the project is available in this repository. You can find the model weights for the segmentation [here (https://drive.google.com/file/d/1D44Om1X1bx4eWHOTtpJWKG4gp9OGl-Fo/view?usp=sharing)
+The code for the first part of the project is available in this repository. You can find the model weights for the segmentation [here] (https://drive.google.com/file/d/1D44Om1X1bx4eWHOTtpJWKG4gp9OGl-Fo/view?usp=sharing)
 
 ## Overview of the Project
 
