@@ -65,7 +65,7 @@ Incorporating the latent features extracted from the 3D autoencoder into a gradi
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 3.png" width="700" height="70">
+  <img src="Figures/Figure 3.png" width="900" height="90">
 </p>
 
 <br>
