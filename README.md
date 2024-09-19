@@ -17,7 +17,7 @@ The code for the first part of the project is available in this repository. You 
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 1.png" width="700" height="700">
+  <img src="Figures/Figure 1.png" width="700" height="400">
 </p>
 
 <br>
@@ -44,7 +44,7 @@ We employed the Swin Transformer (specifically, SwinUNETR from MONAI) for the se
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 2.png" width="700" height="600">
+  <img src="Figures/Figure 2.png" width="700" height="450">
 </p>
 
 <br>
@@ -67,7 +67,7 @@ Incorporating the latent features extracted from the 3D autoencoder into a gradi
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 3.png" width="700" height="200">
+  <img src="Figures/Figure 3.png" width="700" height="100">
 </p>
 
 <br>
