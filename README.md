@@ -21,8 +21,6 @@ The code for the first part of the project is available in this repository. You 
 </p>
 
 <br>
-Figure 1: Overview of the project pipeline
-
 
 
 
@@ -57,8 +55,8 @@ Figure 2: Architecture of the Swin Transformer model
 
 ## Results
 For the segmentation task using the Swin Transformer, we achieved the following results:<br>
-**Intersection over Union (IoU):** XXX (95% CI, 0.77–0.80)<br> 
-**Dice Similarity Coefficient:** XXX (95% CI, 0.87–0.89)<br>
+**Intersection over Union (IoU):** 0.79 (95% CI, 0.77–0.80)<br> 
+**Dice Similarity Coefficient:** 0.88 (95% CI, 0.87–0.89)<br>
 These results align with previous analyses of this dataset (see [link to study])
 
 Incorporating the latent features extracted from the 3D autoencoder into a gradient boosting classifier improved disc bulging prediction compared to using geometric features alone. The performance was comparable to studies that combine geometric and anthropometric data (see tables below for detailed results)
@@ -67,7 +65,7 @@ Incorporating the latent features extracted from the 3D autoencoder into a gradi
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 3.png" width="700" height="100">
+  <img src="Figures/Figure 3.png" width="700" height="70">
 </p>
 
 <br>
