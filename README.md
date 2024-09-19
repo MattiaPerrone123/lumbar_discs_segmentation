@@ -17,7 +17,7 @@ The code for the first part of the project is available in this repository. You 
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 1.png" width="700" height="400">
+  <img src="Figures/Figure 1.png" width="700" height="430">
 </p>
 
 <br>
@@ -42,7 +42,7 @@ We employed the Swin Transformer (specifically, SwinUNETR from MONAI) for the se
 <br>
 
 <p align="center">
-  <img src="Figures/Figure 2.png" width="700" height="450">
+  <img src="Figures/Figure 2.png" width="700" height="400">
 </p>
 
 <br>
